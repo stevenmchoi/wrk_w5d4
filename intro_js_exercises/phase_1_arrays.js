@@ -11,7 +11,7 @@ Array.prototype.uniq = function() {
 };
 
 
-console.log([1,2,3,4,4].uniq());
+// console.log([1,2,3,4,4].uniq());
 
 Array.prototype.twoSum = function() {
   let pairs = [];
@@ -28,7 +28,7 @@ Array.prototype.twoSum = function() {
   return pairs;
 };
 
-console.log([-5,2,5,3,-2,0].twoSum());
+// console.log([-5,2,5,3,-2,0].twoSum());
 
 //transpase with foreach on second iteration
 Array.prototype.transpose = function() {
@@ -46,4 +46,4 @@ Array.prototype.transpose = function() {
   return transposed;
 };
 
-console.log([[1,2,3],[4,5,6],[7,8,9]].transpose());
+// console.log([[1,2,3],[4,5,6],[7,8,9]].transpose());

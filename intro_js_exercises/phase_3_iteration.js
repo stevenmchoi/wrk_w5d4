@@ -32,4 +32,4 @@ String.prototype.subStrings = function() {
   return subArray;
 };
 
-console.log('redrum'.subStrings());
+// console.log('redrum'.subStrings());
